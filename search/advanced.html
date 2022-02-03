@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+      <div id="men">
+        <ul>
+          <li><a href="index.html">Google Search</a></li>
+        </ul>
+      </div>
+      <div id ="adv">
+        <table>
+        <tr><th><H3 >Advanced Search</h3></th></tr>
+          <form action="https://www.google.com/search">
+          <tr>
+            <td class="right"><p>Find pages with all the words you need</p></td><td class="center"><input class="inp_adv" type="text" name="as_q" placeholder="type the words"></td><td class="left">Type the important words: tri-colour rat terrier</td></tr>
+            <td class="right"><p>Find pages with this exact word or phrase</p></td><td class="center"><input class="inp_adv" type="text" name="as_epq" placeholder="type phrase"></td><td class="left">Put exact words in quotes: "rat terrier"</td></tr>
+            <td class="right"><p>Find pages with any of these words</p></td><td class="center"><input type="text" class="inp_adv" name="as_oq" placeholder="type the words"></td><td class="left">Type OR between all the words you want: miniature OR standard</td></tr>
+            <td class="right"><p>Find pages with none of these words</p></td><td class="center"><input type="text" class="inp_adv" name="as_eq" placeholder="type the words"></td><td class="left">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td></tr>
+            <tr><td class="right"><input type="hidden" name="as_qdr" value="all">
+                                  <input type="hidden" name="as_occt" value="any">
+                                  <input type="hidden" name="safe" value="active">
+                </td><td class="but_td"><input class="but_adv" type="submit" value="Google Advanced Search"></td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </body>
+</html>
